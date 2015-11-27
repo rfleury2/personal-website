@@ -16,8 +16,7 @@ In order to cut down on the amount of time fiddling with Markdown and concentrat
 
 So here it is:
 
-# Markdown Cheatsheet
-### Headings
+# Markdown Cheat Sheet
 ---
 # Heading 1
 ## Heading 2
