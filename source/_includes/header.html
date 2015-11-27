@@ -20,7 +20,13 @@
       <img src="/images/author.jpg" alt="Ricardo Fleury - web applications photo" class="dot">
     </a>
     <h1>Hi, I'm Ricardo <small>and I build web applications</small></h1>
-    <a href="#contact" class='btn'>Get in touch!</a>
+    
+    {% if page.title == 'Home' %}
+      <a href="#contact" class='btn'>Get in touch!</a>
+    {% else %}
+      <a href="/#contact" class='btn'>Get in touch!</a>
+    {% endif %}
+
   </div>
   <hr class="hr">
 </header>

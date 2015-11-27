@@ -1,5 +1,4 @@
 permalink   : /:categories/:year/:title/
-# markdown    : kramdown
 markdown: redcarpet
 highlighter : pygments
 
