@@ -38,6 +38,10 @@ $icon-linkedin: "\e90c";
   -moz-osx-font-smoothing: grayscale;
 }
 
+.social-item:hover {
+  opacity: 0.8;
+}
+
 .icon-redo:before { content: $icon-redo; }
 .icon-link:before { content: $icon-link; }
 .icon-star:before { content: $icon-star; }
