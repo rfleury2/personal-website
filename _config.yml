@@ -13,7 +13,7 @@ sass:
 
 # Site settings
 title: Ricardo Fleury | Web Developer
-description: ""
+description: "Ricardo Fleury is an experienced web developer with experience building mobile-ready responsive web applications for startups, small businesses, agencies, and corporate clients alike.  Core technologies used include Ruby on Rails (RoR), HTML, CSS, JavaScript.  See his client work and open source projects, along with a blog inspired by his learning process."
 email: rfleury2@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://nandomoreira.me/lora"
