@@ -17,3 +17,8 @@ email: rfleury2@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ricardofleury.com"
 repository: "https://github.com/rfleury2/personal-website"
+
+# Tagging
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty

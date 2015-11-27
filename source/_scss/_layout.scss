@@ -54,6 +54,15 @@
   }
 }
 
+.btn.btn-small {
+  padding: .5em .5em;
+  line-height: .3em;
+  font-weight: 300;
+  margin-bottom: .5em;
+  background-color: $silver-color;
+  color: $primary-color;
+}
+
 .pagination {
   @extend %clearfix;
 

@@ -8,8 +8,7 @@ description: ""
 keywords: ""
 categories:
 
-tags:
-
+tags: ["markdown", "cheatsheet", "reference"]
 ---
 
 In order to cut down on the amount of time fiddling with Markdown and concentrate on the content of this blog, I needed to make a **simple reference where I could pick and choose individual components in a clean and fast way**
