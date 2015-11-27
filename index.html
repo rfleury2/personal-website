@@ -1,1 +1,97 @@
-Hello
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page_title }}</title>
+
+    <meta name="description" content="{{ page_description }}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.meta_keywords }}{% endif %}">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="theme-color" content="#2ecc71">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src='_site/scroll.js'></script>
+  </head>
+  <body class="{% if page.bodyclass %}{{ page.bodyclass }}{% endif %}">
+    <main class="container">
+
+        <header class="site-header">
+          <div class="container txt-center">
+            <nav class="navbar">
+              <ul>
+                <li><a href="/">home</a></li>
+                <li class="divider">&bull;</li>
+                <li><a href="#about">about</a></li>
+                <li class="divider">&bull;</li>
+                <li><a href="#projects">projects</a></li>
+                <li class="divider">&bull;</li>
+                <li><a href="#contact">contact</a></li>
+                <li class="divider">&bull;</li>
+                <li><a href="/_site/index.html">blog</a></li>
+              </ul>
+            </nav>
+            <hr class="hr">
+            <a href="/" class="author-thumb">
+              <img src="/images/author.jpg" alt="Ricardo Fleury - web applications photo" class="dot">
+            </a>
+            <h1>Hi, I'm Ricardo <small>and I build web applications</small></h1>
+            <a href="#contact" class='btn'>Get in touch!</a>
+          </div>
+          <hr class="hr">
+        </header>
+
+        <section class="main-content">
+          <section id="about">
+            <h1>About Dummy Header</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </section>
+          <div class="clearfix"></div>
+
+          <section id="projects">
+            <h1>Projects Dummy Header</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </section>
+          <div class="clearfix"></div>
+
+          <section id="contact">
+            <h1>Contact Section</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </section>
+
+          <div class="clearfix"></div>
+        </section>
+
+        <div class="clearfix"></div>
+
+        <footer class="site-footer txt-center">
+          <hr>
+          <ul class="social">
+            <li><a href="http://github.com/rfleury2" target="_blank"><i class="icon icon-github"></i></a></li>
+            <li><a href="http://twitter.com/rfleury2" target="_blank"><i class="icon icon-twitter"></i></a></li>
+            <li><a href="http://linkedin.com/in/ricardofleury" target="_blank"><i class="icon icon-linkedin"></i></a></li>
+          </ul>
+          <small>&copy; 2015 All rights reserved. Made with <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <a href="http://nandomoreira.me" target="_blank">Lora</a></small>
+          <small>by Ricardo Fleury</small>
+        </footer>
+
+    </main>
+  </body>
+</html>
