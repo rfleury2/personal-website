@@ -1,0 +1,34 @@
+permalink   : /:categories/:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed
+
+# Site settings
+title: Ricardo Fleury | Web Developer
+description: ""
+email: rfleury2@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://yourdomain.com"
+# url: "http://nandomoreira.me/lora"
+# repository: "https://github.com/nandomoreirame/lora"
+# disqus_shortname: "fernandomoreira"
+# google_analytics: 
+
+# social footer
+social:
+  github:
+    slug: github
+    link: http://github.com/rfleury2
+  twitter:
+    slug: twitter
+    link: http://twitter.com/rfleury2
+  linkedin:
+    slug: linkedin
+    link: http://linkedin.com/in/ricardo.fleury

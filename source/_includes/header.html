@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="container txt-center">
+    <nav class="navbar">
+      <ul>
+        <li><a href="/">home</a></li>
+        <li class="divider">&bull;</li>
+        {% if page.title == 'Home' %}
+          <li><a href="#about">about</a></li>
+          <li class="divider">&bull;</li>
+          <li><a href="#projects">projects</a></li>
+          <li class="divider">&bull;</li>
+          <li><a href="#contact">contact</a></li>
+          <li class="divider">&bull;</li>
+        {% endif %}
+        <li><a href="/blog.html">blog</a></li>
+      </ul>
+    </nav>
+    <hr class="hr">
+    <a href="/" class="author-thumb">
+      <img src="/images/author.jpg" alt="Ricardo Fleury - web applications photo" class="dot">
+    </a>
+    <h1>Hi, I'm Ricardo <small>and I build web applications</small></h1>
+    <a href="#contact" class='btn'>Get in touch!</a>
+  </div>
+  <hr class="hr">
+</header>
